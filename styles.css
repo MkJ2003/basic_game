@@ -1,0 +1,29 @@
+body{
+  background-color: darkmagenta;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1
+{
+  color:yellowgreen;
+  font-size: 7rem;
+  font-weight: bold;
+  
+}
+h2
+{
+  color:whitesmoke;
+  font-size: 2rem;
+  font-size: 600;
+}
+
+
+@media  (min-width:480px)
+    {
+      .container{
+        display: flex;
+        justify-content: center;
+        gap:60px;
+      }
+    }
